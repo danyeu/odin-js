@@ -1,4 +1,9 @@
-const reverseString = function() {
+const reverseString = function(s) {
+    let ans = "";
+    for (let i = 0; i < s.length; i++) {
+        ans += s.at(s.length - i - 1);
+    }
+    return ans;
 
 };
 
